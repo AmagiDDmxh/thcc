@@ -4,6 +4,7 @@ import requests
 import re
 import subprocess
 import time
+from template import *
 from bs4 import BeautifulSoup
 
 def get_card_list(types, topics):
